@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Form Demo</h1>
+
+    <form action="search">
+      <p>
+        <label for="username">ユーザー名</label>
+        <input
+          id="username"
+          type="text"
+          placeholder="ユーザー名"
+          name="username"
+        />
+      </p>
+      <p>
+        <label for="password">パスワード</label>
+        <input
+          id="password"
+          type="password"
+          placeholder="パスワード"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="color">好きな色</label>
+        <input id="color" type="color" placeholder="色" name="color" />
+      </p>
+      <p>
+        <label for="number">数字</label>
+        <input id="number" type="number" placeholder="数字" name="num" />
+      </p>
+
+      <button>送信</button>
+    </form>
+    <hr />
+    <form action="https://www.reddit.com/search">
+      <input type="text" name="q" />
+      <button>レディット検索</button>
+    </form>
+    <form action="https://www.google.com/search">
+      <input type="text" name="q" />
+      <button>google検索</button>
+    </form>
+
+    <h2>続 input</h2>
+    <form action="/birds">
+      <p>
+        <input type="checkbox" name="agree_tos" id="agree" />
+        <label for="agree">利用規約に同意します</label>
+      </p>
+      <p>
+        <label for="xs">xs</label>
+        <input type="radio" name="size" id="xs" value="xs" />
+        <label for="s">s</label>
+        <input type="radio" name="size" id="s" value="s" />
+        <label for="m">m</label>
+        <input type="radio" name="size" id="m" value="m" />
+      </p>
+      <p>
+        <label for="meal">食事を選択してください</label>
+        <select name="meal" id="meal">
+          <option value="fish">魚</option>
+          <option value="salad">サラダ</option>
+          <option value="steak">ステーキ</option>
+        </select>
+      </p>
+      <p>
+        <label for="chese">チーズの量</label>
+        <input
+          type="range"
+          id="chese"
+          min="0"
+          max="10"
+          name="chese_level"
+          value="3"
+        />
+      </p>
+      <p>
+        <label for="comments">その他コメント</label>
+        <br>
+        <textarea name="" id="" rows="10" cols="40" placeholder="コメントを入力してください"></textarea>
+      </p>
+      <button>送信</button>
+    </form>
+
+    <hr>
+    <h2>バリデーション</h2>
+    <form action="/dummy">
+        <label for="first">名前</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="user">ユーザー名</label>
+            <input type="text" id="user" minlength="" maxlength="100" step="10" placeholder="数字を入力" required >
+        </p>
+    </form>
+    <button>送信</button>
+  </body>
+</html>
