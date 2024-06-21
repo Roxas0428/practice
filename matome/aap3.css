@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+section {
+  background-color: aliceblue;
+  width: 800px;
+  height: 800px;
+}
+div {
+  background-color: green;
+  width: 70%;
+  height: 20%;
+}
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+}
+h2 {
+  font-size: 2em;
+}
+article {
+  font-size: 30px;
+}
+p {
+  font-size: 0.5em;
+}
+
+h3 {
+  font-size: 1em;
+}

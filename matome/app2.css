@@ -1,0 +1,10 @@
+h1{
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: inline;
+}
+span {
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: block;
+}
