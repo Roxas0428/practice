@@ -55,3 +55,23 @@
 //   return num >= 50 && num <= 100
 // }
 
+// const add = (x, y) => {
+//   return x + y;
+// };
+// const square = num => {
+//   return num * num;
+// };
+
+// const rollDie = () => {
+//   return Math.floor(Math.random() * 6) + 1;
+// };
+
+// setTimeout(() => {
+//   console.log("やほーー");
+// }, 3000);
+
+// const id = setInterval(() => {
+//   console.log(Math.random());
+// }, 2000);
+
+// clearInterval(id);
