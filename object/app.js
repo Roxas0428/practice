@@ -24,3 +24,8 @@
 // const c1 = new Color(255, 67, 89, "unko");
 // const c2 = new Color(255, 255, 78, "unk");
 
+const jokes = require("give-me-a-joke");
+const colors = require("colors")
+jokes.getRandomDadJoke(function (joke) {
+  console.log(joke.rainbow);
+});
